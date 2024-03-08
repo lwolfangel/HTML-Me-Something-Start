@@ -1,1 +1,54 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: lavenderblush;
+      
+
+    #mainHeading {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        text-decoration: underline;
+        font-size: xxx-large;
+    }
+
+    h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: large;
+        text-align: left;
+        font-size: xx-large;
+    }
+
+    p.funParagraph {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        font-size: x-large;
+    }
+
+    img {
+        width: 700px;
+        height: 500px;
+        align-items: center;
+    }
+
+    figcaption {
+        font-size: large;
+        font-style: italic;
+        color: rgb(100, 99, 99);
+    }
+   
+    img {
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: 80px;
+    }
+    figcaption {
+        padding-left: 80px;
+    }
+
+    p {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-right: 80px;
+        margin-left: 80px;
+      }
+}
