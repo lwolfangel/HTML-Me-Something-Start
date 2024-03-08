@@ -8,7 +8,12 @@ body {
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-align: center;
         text-decoration: underline;
+        color: red;
         font-size: xxx-large;
+    }
+
+    .funParagraph {
+        color: green;
     }
 
     h2 {
@@ -18,32 +23,28 @@ body {
         font-size: xx-large;
     }
 
-    p.funParagraph {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: left;
-        font-size: x-large;
-    }
-
-    img {
-        width: 700px;
-        height: 500px;
-        align-items: center;
+   .funParagraph {
+        color:green;
     }
 
     figcaption {
         font-size: large;
         font-style: italic;
         color: rgb(100, 99, 99);
+        padding-left: 80px;
+    
     }
    
     img {
+        width: 700px;
+        height: 500px;
+        align-items: center;
         padding-top: 40px;
         padding-right: 30px;
         padding-left: 80px;
+      
     }
-    figcaption {
-        padding-left: 80px;
-    }
+
 
     p {
         margin-top: 40px;
